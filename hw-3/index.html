@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <!-- Header -->
+      <div class="form-header">
+        <span class="login-tab">Login</span>
+        <span class="separator">|</span>
+        <span class="register-tab">Register</span>
+        <button class="close-button">×</button>
+      </div>
+
+      <!-- Description -->
+      <p>Enter your email and password to register.</p>
+
+      <!-- Form -->
+      <form action="#" method="POST" class="register-form">
+        <input type="text" name="username" placeholder="Username" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <input
+          type="password"
+          name="confirm_password"
+          placeholder="Confirm Password"
+          required
+        />
+
+        <button type="submit">Register</button>
+      </form>
+
+      <!-- Or register with -->
+      <div class="alternative-register">
+        <hr />
+        <p>Or register with</p>
+        <button class="google-btn">Continue with Google</button>
+        <button class="facebook-btn">Continue with Facebook</button>
+      </div>
+    </div>
+  </body>
+</html>
